@@ -4,15 +4,18 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title>Dashboard</title>
 		<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
-	</head>
 
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+					alert($('#tweets').html());
+			});
+		</script>
 	<body>
 		<div id="background">
-			
 			<img src="images/absolute-img.jpg" alt="abs-img" class="abs-img" />
-			
 			<div class="page">
-				
 				<!--side bar-->
 				<div class="sidebar">
 					<!--featured picture-->
@@ -24,30 +27,30 @@
 						<!--and the link should be used to expand all the notes-->
 						<a href="blog.html" class="comments">12</a>
 					</div>
-					
+
 					<!--tweets-->
 					<div id="tweets">
 						<h3>Buffer</h3>
 						<!--TODO: make this a text field-->
 						<p>This is a place holder of a text field where you enter todos and notes</p>
 					</div>
-					
+
 					<!--article-->
 					<div id="article">
 						<h3>Backlog</h3>
 						<ul>
 							<li>
-								<p>Build a rocket</p>
-								<span>Added Sept 21</span>
+							<p>Build a rocket</p>
+							<span>Added Sept 21</span>
 							</li>
 
 							<li>
-								<p>Buy old dry mother</p>
-								<span>Added Sept 21</span>
+							<p>Buy old dry mother</p>
+							<span>Added Sept 21</span>
 							</li>
 						</ul>
 					</div>
-					
+
 					<!--connect-->
 					<div id="connect">
 						<h2>Stay Informed:</h2>
@@ -59,18 +62,18 @@
 						</form>
 					</div>
 				</div>
-				
-				
+
+
 				<div class="body">
 					<!--search box: search is a very important aspect of this website-->
 					<form action="" id="search">
 						<input type="text"/>
 						<input type="submit" value="" id="submit"/>
 					</form>
-					
+
 					<!--title-->
 					<h1><a href="index.html">Wilson's Personal Dashboard</a></h1>
-					
+
 					<!--featured articles-->
 					<div id="featured">
 						<!-- this bubble design is pretty good-->
